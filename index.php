@@ -7,14 +7,14 @@
     <title>Nom de l'agence</title>
 </head>
 <body class="agence">
-<p><b>Important :</b>Ce site n'est pas encore opérationnel et est en cours de développement. <br>Les modifications suivront en fonction de l'avancée du projet.<br>
-Nous vous remercions de votre compréhension.</p>
+
 
     <?php 
     require('header.php');
     ?>
     <h1>Nom de l'agence</h1>
-    
+    <p><b>Important :</b>Ce site n'est pas encore opérationnel et est en cours de développement. <br>Les modifications suivront en fonction de l'avancée du projet.<br>
+Nous vous remercions de votre compréhension.</p>
     <?php
 require('secret.php');
 $mabd = new PDO('mysql:host='.HOST.';dbname='.DBNAME.';charset=UTF8;', USER, PASSWORD);
