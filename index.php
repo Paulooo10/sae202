@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>Nom de l'agence</title>
+    <title>Univert</title>
 </head>
 <body class="agence">
 
@@ -12,8 +12,8 @@
     <?php 
     require('header.php');
     ?>
-    <h1>Nom de l'agence</h1>
-    <p><b>Important :</b>Ce site n'est pas encore opérationnel et est en cours de développement. <br>Les modifications suivront en fonction de l'avancée du projet.<br>
+    <h1>Univert</h1>
+    <p><b>Important :</b> Ce site n'est pas encore opérationnel et est en cours de développement. <br>Les modifications suivront en fonction de l'avancée du projet.<br>
 Nous vous remercions de votre compréhension.</p>
     <?php
 require('secret.php');
