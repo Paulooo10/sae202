@@ -7,6 +7,9 @@
     <title>Nom de l'agence</title>
 </head>
 <body class="agence">
+<p><b>Important :</b>Ce site n'est pas encore opérationnel et est en cours de développement. <br>Les modifications suivront en fonction de l'avancée du projet.<br>
+Nous vous remercions de votre compréhension.</p>
+
     <?php 
     require('header.php');
     ?>
@@ -20,8 +23,6 @@ $req = "SELECT * FROM jardins";
 $resultat = $mabd->query($req);
 ?>
 
-<p><b>Important :</b>Ce site n'est pas encore opérationnel et est en cours de développement. <br>Les modifications suivront en fonction de l'avancée du projet.<br>
-Nous vous remercions de votre compréhension.</p>
 
 <!-- Merci de ne pas enlever cette phrase pour l'instant -->
 
