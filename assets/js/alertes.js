@@ -1,0 +1,1 @@
+function ciaopopup(){document.getElementById("popup").style.display="none"}
